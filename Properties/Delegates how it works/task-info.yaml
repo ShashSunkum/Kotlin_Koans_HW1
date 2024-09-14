@@ -3,7 +3,7 @@ files:
   - name: src/Task.kt
     visible: true
     placeholders:
-      - offset: 302
+      - offset: 519
         length: 6
         placeholder_text: TODO()
         initial_state:
@@ -12,8 +12,8 @@ files:
         initialized_from_dependency: false
         encrypted_possible_answer: vPSaVhz17nkz4EJEE7JhAZQywS93JNqaciLvci2hwCs=
         selected: false
-        status: Unchecked
-      - offset: 403
+        status: Solved
+      - offset: 620
         length: 6
         placeholder_text: TODO()
         initial_state:
@@ -22,7 +22,7 @@ files:
         initialized_from_dependency: false
         encrypted_possible_answer: lGYl25FEahUObMfhNiqWlTZOjfHI5Jy4NLDAtUPCzos=
         selected: false
-        status: Unchecked
+        status: Solved
     learner_created: false
   - name: src/MyDate.kt
     visible: true
@@ -31,5 +31,8 @@ files:
     visible: false
     learner_created: false
 feedback_link: https://docs.google.com/forms/d/e/1FAIpQLSeYool5qTz-p77fzn_9UKQVjO3u3Al6WjzEyW5cbjspRwtQig/viewform?usp=pp_url&entry.2103429047=Properties+/+Delegates+how+it+works
-status: Unchecked
+status: Solved
+feedback:
+  message: Congratulations!
+  time: "Sat, 14 Sep 2024 00:06:25 UTC"
 record: -1

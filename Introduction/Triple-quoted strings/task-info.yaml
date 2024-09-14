@@ -3,7 +3,7 @@ files:
   - name: src/Task.kt
     visible: true
     placeholders:
-      - offset: 162
+      - offset: 182
         length: 13
         placeholder_text: .trimIndent()
         initial_state:
@@ -12,11 +12,14 @@ files:
         initialized_from_dependency: false
         encrypted_possible_answer: dvM3EkWOD+M8hSdDYXjZmbZJ6slxLv+pA5C9zwH+ISo=
         selected: false
-        status: Unchecked
+        status: Solved
     learner_created: false
   - name: test/Tests.kt
     visible: false
     learner_created: false
 feedback_link: https://docs.google.com/forms/d/e/1FAIpQLSeYool5qTz-p77fzn_9UKQVjO3u3Al6WjzEyW5cbjspRwtQig/viewform?usp=pp_url&entry.2103429047=Introduction+/+Triple-Quoted+Strings
-status: Unchecked
+status: Solved
+feedback:
+  message: Congratulations!
+  time: "Fri, 13 Sep 2024 23:36:13 UTC"
 record: -1

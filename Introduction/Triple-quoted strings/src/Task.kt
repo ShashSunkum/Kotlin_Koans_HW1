@@ -3,7 +3,8 @@ const val answer = 42
 
 val tripleQuotedString = """
     #question = "$question"
-    #answer = $answer""".trimIndent()
+    #answer = $answer
+""".trimMargin(marginPrefix = "#")
 
 fun main() {
     println(tripleQuotedString)

@@ -1,8 +1,17 @@
 fun doSomethingWithCollection(collection: Collection<String>): Collection<String>? {
+    // Group strings by their length
+    val groupsByLength = collection.groupBy { it.length }
 
-    val groupsByLength = collection.groupBy { s -> TODO() }
+    // Find the maximum size of any group
+    val maximumSizeOfGroup = groupsByLength.values.map { group -> group.size }.maxOrNull()
 
-    val maximumSizeOfGroup = groupsByLength.values.map { group -> TODO() }.maxOrNull()
+    // Return the first group that has the maximum size, or null if none
+    return groupsByLength.values.firstOrNull { group -> group.size == maximumSizeOfGroup }
+}
 
-    return groupsByLength.values.firstOrNull { group -> TODO() }
+// Example usage
+fun main() {
+    val strings = listOf("apple", "bat", "car", "elephant", "dog", "cat", "zebra")
+    val result = doSomethingWithCollection(strings)
+    println(result)  // Output: [elephant]
 }

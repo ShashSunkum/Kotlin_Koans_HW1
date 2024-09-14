@@ -3,7 +3,7 @@ files:
   - name: src/Task.kt
     visible: true
     placeholders:
-      - offset: 72
+      - offset: 293
         length: 6
         placeholder_text: TODO()
         initial_state:
@@ -12,8 +12,8 @@ files:
         initialized_from_dependency: false
         encrypted_possible_answer: 0jTQ2/y+bX7DpTLUxdQUmg==
         selected: false
-        status: Unchecked
-      - offset: 101
+        status: Solved
+      - offset: 322
         length: 6
         placeholder_text: TODO()
         initial_state:
@@ -22,8 +22,8 @@ files:
         initialized_from_dependency: false
         encrypted_possible_answer: OQRt2jAjSqs/opsojU2ziv75WtpqXozBKa0U4k1km4XH+aCH/f05CZtd7sn0/v9R
         selected: false
-        status: Unchecked
-      - offset: 119
+        status: Solved
+      - offset: 340
         length: 14
         placeholder_text: interface Expr
         initial_state:
@@ -32,8 +32,8 @@ files:
         initialized_from_dependency: false
         encrypted_possible_answer: sSDd6IW/jyIN5mHgg8ur5oyi1zWIYEzXpjiuH8Mf5mQ=
         selected: false
-        status: Unchecked
-      - offset: 162
+        status: Solved
+      - offset: 383
         length: 6
         placeholder_text: TODO()
         initial_state:
@@ -42,8 +42,8 @@ files:
         initialized_from_dependency: false
         encrypted_possible_answer: CuldPLB6nkzjojEM8JmcGQ==
         selected: false
-        status: Unchecked
-      - offset: 214
+        status: Solved
+      - offset: 435
         length: 6
         placeholder_text: TODO()
         initial_state:
@@ -52,11 +52,14 @@ files:
         initialized_from_dependency: false
         encrypted_possible_answer: CuldPLB6nkzjojEM8JmcGQ==
         selected: false
-        status: Unchecked
+        status: Solved
     learner_created: false
   - name: test/Tests.kt
     visible: false
     learner_created: false
 feedback_link: https://docs.google.com/forms/d/e/1FAIpQLSeYool5qTz-p77fzn_9UKQVjO3u3Al6WjzEyW5cbjspRwtQig/viewform?usp=pp_url&entry.2103429047=Classes+/+Sealed+Classes
-status: Unchecked
+status: Solved
+feedback:
+  message: Congratulations!
+  time: "Fri, 13 Sep 2024 23:43:07 UTC"
 record: -1

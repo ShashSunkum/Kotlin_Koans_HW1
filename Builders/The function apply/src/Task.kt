@@ -1,5 +1,7 @@
+// Extension function that mimics the behavior of apply
 fun <T> T.myApply(f: T.() -> Unit): T {
-    TODO()
+    f()  // Invoke the function with the receiver being the current object (this)
+    return this  // Return the object itself
 }
 
 fun createString(): String {
